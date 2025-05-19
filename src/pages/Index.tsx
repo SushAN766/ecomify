@@ -95,7 +95,7 @@ const Index = () => {
             </div>
             <div className="order-first md:order-last">
               <img 
-                src="/lovable-uploads/c449faa9-6c8d-424e-831f-9a5b0a966401.png" 
+                src="https://images.unsplash.com/photo-1700527220164-dff705ea3285?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fFNob3BwaW5nJTIwRXhwZXJpZW5jZXxlbnwwfHwwfHx8MA%3D%3D" 
                 alt="Shopping Experience" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
