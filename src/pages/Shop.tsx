@@ -134,12 +134,7 @@ const Shop = () => {
               <>
                 <div className="flex justify-between items-center mb-6">
                   <p className="text-gray-600">Showing {filteredProducts?.length} products</p>
-                  <select className="border rounded p-2">
-                    <option>Sort by: Featured</option>
-                    <option>Price: Low to High</option>
-                    <option>Price: High to Low</option>
-                    <option>Newest</option>
-                  </select>
+                  
                 </div>
                 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

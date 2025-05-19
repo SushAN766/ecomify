@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">eBazaar</h3>
             <p className="text-gray-600 text-sm">
-              Your one-stop shop for all your fashion needs. Quality products at affordable prices.
+            All your fashion needs, quality assured at prices you'll love.
             </p>
           </div>
           
