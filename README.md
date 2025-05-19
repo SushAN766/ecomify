@@ -7,7 +7,7 @@ Welcome to **ebazaar** — your one-stop online shop where clicking “Add to Ca
 ## Try the Demo!
 
 Don’t just take my word for it — dive in and experience ebazaar magic yourself!  
-[👉 Click here for the demo and prepare to be amazed!](https://your-demo-link.com)  
+[Danger: Highly Shoppable Content!](https://e-bazaar-delta.vercel.app/)  
 
 Warning: May cause spontaneous shopping sprees and uncontrollable excitement. Shop responsibly! 🛒✨
 
