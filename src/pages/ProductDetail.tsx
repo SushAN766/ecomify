@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
@@ -15,16 +14,33 @@ const ProductDetail = () => {
   const { addToCart } = useCart();
   const [quantity, setQuantity] = useState(1);
   
+  
+
   const { data: product, isLoading, error } = useQuery({
     queryKey: ['product', id],
     queryFn: () => getProduct(Number(id)),
     enabled: !!id,
   });
   
+  
   const { data: similarProducts } = useQuery({
     queryKey: ['products'],
     queryFn: getProducts,
   });
+
+  const handleShare = () => {
+    if (navigator.share) {
+      navigator.share({
+        title: product?.title || 'Product',
+        text: product?.description || '',
+        url: window.location.href,
+      })
+      .then(() => console.log('Successful share'))
+      .catch((error) => console.error('Error sharing:', error));
+    } else {
+      alert('Sharing is not supported in your browser.');
+    }
+  };
   
   if (isLoading) {
     return (
@@ -57,6 +73,9 @@ const ProductDetail = () => {
     });
   };
   
+  // If addToCart expects CartItem with quantity:
+
+
   const random4Products = similarProducts
     ?.filter(p => p.id !== product.id)
     .sort(() => 0.5 - Math.random())
@@ -150,7 +169,7 @@ const ProductDetail = () => {
               <div className="flex items-center justify-between text-sm text-gray-600">
                 <div>SKU: PR-{product.id.toString().padStart(4, '0')}</div>
                 <div>Category: <span className="capitalize">{product.category}</span></div>
-                <Button variant="ghost" size="sm">
+                <Button variant="ghost" size="sm" onClick={handleShare}>
                   <Share className="mr-2 h-4 w-4" /> Share
                 </Button>
               </div>
