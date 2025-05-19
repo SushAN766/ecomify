@@ -1,15 +1,12 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ShoppingCart, User } from 'lucide-react';
+import { ShoppingCart } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
-import { useAuth } from '@/context/AuthContext';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 
 const Navbar: React.FC = () => {
   const { totalItems } = useCart();
-  const { isAuthenticated, user } = useAuth();
 
   return (
     <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
@@ -36,18 +33,6 @@ const Navbar: React.FC = () => {
         </nav>
 
         <div className="flex items-center space-x-4">
-          {isAuthenticated ? (
-            <Link to="/account" className="text-gray-700 hover:text-ebazaar-primary">
-              <User className="h-6 w-6" />
-            </Link>
-          ) : (
-            <Link to="/login">
-              <Button variant="ghost" className="text-gray-700 hover:text-ebazaar-primary">
-                Login
-              </Button>
-            </Link>
-          )}
-          
           <Link to="/cart" className="relative">
             <ShoppingCart className="h-6 w-6 text-gray-700" />
             {totalItems > 0 && (
