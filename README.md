@@ -78,7 +78,7 @@ Pull requests, bug reports, or just saying hi — all are welcome! Let’s make 
 
 This project is deployed on **Vercel** for seamless and reliable hosting.
 
-🔗 [Live Demo]((https://e-bazaar-delta.vercel.app/)
+🔗 [Live Demo](https://e-bazaar-delta.vercel.app/)
 
 ---
 
