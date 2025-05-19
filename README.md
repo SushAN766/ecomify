@@ -4,15 +4,6 @@ Welcome to **ebazaar** — your one-stop online shop where clicking “Add to Ca
 
 ---
 
-## Try the Demo!
-
-Don’t just take my word for it — dive in and experience ebazaar magic yourself!  
-[Danger: Highly Shoppable Content!](https://e-bazaar-delta.vercel.app/)  
-
-Warning: May cause spontaneous shopping sprees and uncontrollable excitement. Shop responsibly! 🛒✨
-
----
-
 ## What’s This All About?
 
 Ever wanted a smooth shopping spree from your couch? Ebazaar has got you covered with:
@@ -65,6 +56,8 @@ yarn dev
 ```
 Now, open your favorite browser and head to [http://localhost:3000](http://localhost:3000) — boom, shopping paradise!
 
+---
+
 ## How To Use Like a Pro
 
 - Hit the Shop page and find something nice
@@ -73,9 +66,21 @@ Now, open your favorite browser and head to [http://localhost:3000](http://local
 - Check your wishlist when you’re feeling sentimental or indecisive
 - Share your finds with friends and impress them with your taste
 
+---
+
 ## Wanna Help?
 
 Pull requests, bug reports, or just saying hi — all are welcome! Let’s make ebazaar the best place to shop without leaving your couch.
+
+---
+
+## 🚀 Deployment
+
+This project is deployed on **Vercel** for seamless and reliable hosting.
+
+🔗 [Live Demo]((https://e-bazaar-delta.vercel.app/)
+
+---
 
 
 
