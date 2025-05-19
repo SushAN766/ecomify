@@ -1,6 +1,6 @@
 # ebazaar 🛒✨
 
-Welcome to **ebazaar** — your one-stop online shop where clicking “Add to Cart” and “Add to Wishlist” is dangerously satisfying. Think of it as the mall of your dreams, minus the parking hassle and elevator music.
+Welcome to **ebazaar** — your one-stop online shop where clicking “Add to Cart” is dangerously satisfying. Think of it as the mall of your dreams, minus the parking hassle and elevator music.
 
 ---
 
