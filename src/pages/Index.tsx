@@ -1,5 +1,3 @@
-
-import React from 'react';
 import { useQuery } from '@tanstack/react-query';
 import Layout from '@/components/Layout';
 import HeroCarousel from '@/components/HeroCarousel';
