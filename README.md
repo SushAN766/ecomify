@@ -1,4 +1,4 @@
-# ebazaar — Bringing the mall to your screen 🛒✨
+# ebazaar 
 
 Welcome to **ebazaar** — your one-stop online shop where clicking “Add to Cart” is dangerously satisfying. Think of it as the mall of your dreams, minus the parking hassle and elevator music.
 
@@ -16,7 +16,7 @@ Ever wanted a smooth shopping spree from your couch? Ebazaar has got you covered
 
 ---
 
-## The Magic Behind the Scenes 🧙‍♂️
+## The Magic Behind the Scenes 
 
 Here’s what makes the magic happen:
 
@@ -74,7 +74,7 @@ Pull requests, bug reports, or just saying hi — all are welcome! Let’s make 
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 This project is deployed on **Vercel** for seamless and reliable hosting.
 
@@ -84,7 +84,7 @@ This project is deployed on **Vercel** for seamless and reliable hosting.
 
 
 
-Happy shopping (or coding)! 🛍️🚀
+Happy shopping (or coding)! 
 
 
 
