@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
         <Link to="/" className="flex items-center">
           <span className="text-2xl font-semibold text-[#5955ff]"></span>
           <img 
-            src="https://ebazaar.com.sg/wp-content/uploads/2020/08/Main-File-2-e1598507600784.png" 
+            src="\logos\ecomify-logo.png" 
             alt="eBazaar Logo" 
             className="h-10 ml-2 rounded-full" 
           />
